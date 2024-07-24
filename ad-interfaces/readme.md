@@ -16,7 +16,7 @@ AD-Interfaces 是一个 C++ 库,提供了自动驾驶系统中常用的接口。
 
 2. 克隆此仓库:
    ```bash
-   git clone https://github.com/yourusername/ad-interfaces.git
+   git clone https://github.com/leoxiang66/AD-interfaces.git
    ```
 
 3. 进入 "ad-interfaces" 目录:
