@@ -3,11 +3,11 @@
 
 #include <vector>
 #include <opencv2/opencv.hpp>
-#include <perception/PerceptionInterface.hpp>
+#include <perception/CameraDetectorInterface.hpp>
 #include <perception/DetectedBox.hpp>
 #include <perception/BoxCoordinate.hpp>
 
-class DummyPerceptor : public PerceptionInterface {
+class DummyPerceptor : public CameraDetectorInterface {
 public:
     std::vector<std::vector<DetectedBox>> object_detection(const std::vector<cv::Mat>& images) override {
         std::vector<std::vector<DetectedBox>> detections;
