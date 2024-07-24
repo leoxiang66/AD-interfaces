@@ -8,7 +8,7 @@
 class CameraDetectorInterface {
 public:
     virtual ~CameraDetectorInterface() = default;
-    virtual std::vector<std::vector<DetectedBox>> object_detection(const std::vector<cv::Mat>& images) = 0;
+    virtual std::vector<std::vector<DetectedBox>> image_detection(const std::vector<cv::Mat>& images) = 0;
 };
 
 #endif // PERCEPTION_CAMERADETECTORINTERFACE_HPP

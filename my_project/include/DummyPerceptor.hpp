@@ -9,7 +9,7 @@
 
 class DummyPerceptor : public CameraDetectorInterface {
 public:
-    std::vector<std::vector<DetectedBox>> object_detection(const std::vector<cv::Mat>& images) override {
+    std::vector<std::vector<DetectedBox>> image_detection(const std::vector<cv::Mat>& images) override {
         std::vector<std::vector<DetectedBox>> detections;
 
         for (const auto& image : images) {

@@ -20,7 +20,7 @@ int main() {
     }
 
     // Perform object detection
-    std::vector<std::vector<DetectedBox>> detections = perceptor.object_detection(images);
+    std::vector<std::vector<DetectedBox>> detections = perceptor.image_detection(images);
 
     // Print the detection results
     for (size_t i = 0; i < detections.size(); ++i) {
