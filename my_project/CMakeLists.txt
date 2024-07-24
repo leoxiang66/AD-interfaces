@@ -13,6 +13,7 @@ find_package(ad_interfaces REQUIRED)
 
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
+include_directories(include)
 
 # Add executable
 add_executable(my_project src/main.cpp)
